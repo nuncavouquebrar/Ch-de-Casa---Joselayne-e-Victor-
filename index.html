@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chá de Casa Nova da <PRIVATE_NAME></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎉 Chá de Casa Nova 🎉</h1>
+    <p>Escolha um presente e confirme sua presença!</p>
+  </header>
 
+  <main>
+    <section class="lista-presentes">
+      <h2>Lista de Presentes</h2>
+      <ul id="presentes-lista"></ul>
+    </section>
+
+    <section class="confirmacao">
+      <h2>Confirmação de Presença</h2>
+      <form id="form-confirmacao">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+        <button type="submit">Confirmar Presença</button>
+      </form>
+      <p id="mensagem-confirmacao"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com 💕 para o nosso lar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
